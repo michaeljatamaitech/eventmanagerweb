@@ -19,11 +19,11 @@ app:
     
   computerc:
     limits:
-      cpu: 2
-      memory: "8Gi"
+      cpu: 1
+      memory: "512Mi"
     requests:
-      cpu: 2
-      memory: "8Gi"
+      cpu: 1
+      memory: "512Mi"
       
   service:
     port: 80
